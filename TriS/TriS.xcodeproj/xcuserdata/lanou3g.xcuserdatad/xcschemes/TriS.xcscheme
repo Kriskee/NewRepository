@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C27C2B7C1C852F7200C80BAB"
+               BlueprintIdentifier = "C27C2C3B1C853E5F00C80BAB"
                BuildableName = "TriS.app"
                BlueprintName = "TriS"
                ReferencedContainer = "container:TriS.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C27C2B7C1C852F7200C80BAB"
+            BlueprintIdentifier = "C27C2C3B1C853E5F00C80BAB"
             BuildableName = "TriS.app"
             BlueprintName = "TriS"
             ReferencedContainer = "container:TriS.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C27C2B7C1C852F7200C80BAB"
+            BlueprintIdentifier = "C27C2C3B1C853E5F00C80BAB"
             BuildableName = "TriS.app"
             BlueprintName = "TriS"
             ReferencedContainer = "container:TriS.xcodeproj">
@@ -74,7 +74,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C27C2B7C1C852F7200C80BAB"
+            BlueprintIdentifier = "C27C2C3B1C853E5F00C80BAB"
             BuildableName = "TriS.app"
             BlueprintName = "TriS"
             ReferencedContainer = "container:TriS.xcodeproj">
