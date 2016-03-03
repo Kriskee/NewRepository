@@ -3,56 +3,9 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
-            <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="qeW-zX-zVI">
-                                <rect key="frame" x="20" y="271" width="374" height="465"/>
-                                <animations/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            </tableView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="zhanweitu.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="uyE-OU-fht" userLabel="backImg">
-                                <rect key="frame" x="0.0" y="64" width="414" height="207"/>
-                                <animations/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="uyE-OU-fht" secondAttribute="height" multiplier="2" id="G3o-kd-Hu3"/>
-                                </constraints>
-                            </imageView>
-                        </subviews>
-                        <animations/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="uyE-OU-fht" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="4pk-qW-jfZ"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="qeW-zX-zVI" secondAttribute="bottom" id="GEC-i4-pDe"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="qeW-zX-zVI" secondAttribute="trailing" id="Vuc-8u-He2"/>
-                            <constraint firstItem="qeW-zX-zVI" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="ckE-wz-FVt"/>
-                            <constraint firstItem="uyE-OU-fht" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="leS-wP-Vfm"/>
-                            <constraint firstItem="uyE-OU-fht" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qd1-MO-qmp"/>
-                            <constraint firstItem="qeW-zX-zVI" firstAttribute="top" secondItem="uyE-OU-fht" secondAttribute="bottom" id="tJ3-2g-FsT"/>
-                        </constraints>
-                    </view>
-                    <navigationItem key="navigationItem" id="pCg-kg-DjV">
-                        <nil key="title"/>
-                    </navigationItem>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="546" y="357"/>
-        </scene>
         <!--TriS-->
         <scene sceneID="gNj-RS-FDW">
             <objects>
@@ -85,6 +38,9 @@
                                                 <integer key="value" value="10"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <segue destination="ZxW-zG-aW3" kind="show" id="GpN-VH-dJI"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tgv-zW-Z2A">
                                         <rect key="frame" x="173" y="0.0" width="159" height="159"/>
@@ -195,27 +151,44 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6cd-fT-Xtt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="405" y="1160"/>
+            <point key="canvasLocation" x="417" y="482"/>
         </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="0cn-8i-aca">
+        <!--开心一下-->
+        <scene sceneID="lvT-Mt-IX8">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="4NN-Og-wj6" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="9zW-lx-dA8">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
+                <viewController id="ZxW-zG-aW3" customClass="SS_JokeViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ISG-Gr-Bfr"/>
+                        <viewControllerLayoutGuide type="bottom" id="EGq-ow-4qz"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="I3x-an-7UU">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="qvS-q3-74f">
+                                <rect key="frame" x="0.0" y="64" width="414" height="672"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                        </subviews>
                         <animations/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="qvS-q3-74f" secondAttribute="trailing" id="E8f-p2-P3K"/>
+                            <constraint firstItem="EGq-ow-4qz" firstAttribute="top" secondItem="qvS-q3-74f" secondAttribute="bottom" id="FnS-0I-gYf"/>
+                            <constraint firstItem="qvS-q3-74f" firstAttribute="top" secondItem="ISG-Gr-Bfr" secondAttribute="bottom" id="JAn-16-PdI"/>
+                            <constraint firstItem="qvS-q3-74f" firstAttribute="leading" secondItem="I3x-an-7UU" secondAttribute="leading" id="xzf-lM-ahK"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="开心一下" id="gDl-fs-2gk"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Q4y-KZ-CT1"/>
+                        <outlet property="Joke_TableView" destination="qvS-q3-74f" id="pKi-RM-xbG"/>
                     </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Tdh-jx-Wyo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hjI-er-E5e" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-49" y="357"/>
+            <point key="canvasLocation" x="860" y="482"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="hT0-kk-99r">
@@ -235,7 +208,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Okj-7m-HGf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-49" y="1155"/>
+            <point key="canvasLocation" x="-39" y="482"/>
         </scene>
     </scenes>
     <resources>
@@ -244,6 +217,5 @@
         <image name="Img.png" width="365" height="365"/>
         <image name="Joke.png" width="365" height="365"/>
         <image name="News.png" width="365" height="365"/>
-        <image name="zhanweitu.jpg" width="800" height="600"/>
     </resources>
 </document>
